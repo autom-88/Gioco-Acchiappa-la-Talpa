@@ -1,4 +1,4 @@
-🎯 Acchiappa la Talpa
+🎯 Acchiappa la Talpa 🎯
 
 Un progetto educativo sviluppato con **HTML5**, **CSS3** e **JavaScript Vanilla** che riproduce il classico gioco **Whack-a-Mole** in stile arcade.
 
@@ -30,6 +30,7 @@ Acchiappa-la-Talpa/
 │── style.css
 │── script.js
 │── README.md
+
 ```
 
 ---
@@ -156,5 +157,7 @@ Questo progetto è distribuito esclusivamente a scopo educativo.
 👨‍💻 Autore
 
 Sviluppato da autom-88
+
+---
 
 ⭐ Se il progetto ti è stato utile, lascia una **Star** al repository e sentiti libero di contribuire con miglioramenti o nuove funzionalità.
