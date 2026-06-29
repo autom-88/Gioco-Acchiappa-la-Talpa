@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🎯 Acchiappa la Talpa 🎯</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎯 ACCHIAPPA LA TALPA 🎯</h1>
+
+    <!-- FORM GIOCATORE -->
+
+    <div id="playerForm" class="player-form">
+
+        <h2>🎮 NUOVA PARTITA 🎮</h2>
+
+        <input
+            type="text"
+            id="playerName"
+            maxlength="15"
+            placeholder="Inserisci il tuo nome"
+            autocomplete="off">
+
+        <button id="saveName">
+            🚀 GIOCA 🚀
+        </button>
+
+    </div>
+
+    <!-- PUNTEGGIO -->
+
+    <div class="panel">
+
+        <div class="card">
+
+            <h3>🏆 PUNTEGGIO</h3>
+
+            <h2 id="score">0</h2>
+
+        </div>
+
+        <div class="card">
+
+            <h3>⏱ TEMPO</h3>
+
+            <h2 id="time">50</h2>
+
+        </div>
+
+    </div>
+
+    <!-- TABELLONE -->
+
+    <div id="board"></div>
+
+    <!-- START -->
+
+    <button id="start" disabled>
+        ▶ START GAME
+    </button>
+
+    <!-- MESSAGGI -->
+
+    <div id="message"></div>
+
+    <!-- CLASSIFICA -->
+
+    <div class="leaderboard">
+
+        <h2>🏆 CLASSIFICA MIGLIORI PUNTEGGI 🏆</h2>
+
+        <table id="ranking">
+
+            <thead>
+
+                <tr>
+
+                    <th>POSIZIONE</th>
+                    <th>GIOCATORE</th>
+                    <th>PUNTEGGIO</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <!-- Riempita automaticamente da JavaScript -->
+
+            </tbody>
+
+        </table>
+
+        <button id="resetRanking" class="reset-btn">
+            🗑 RESET CLASSIFICA 🗑
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
